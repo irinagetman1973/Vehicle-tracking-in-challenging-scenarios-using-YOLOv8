@@ -1,3 +1,7 @@
+
+ <center>
+  <img src="https://user-images.githubusercontent.com/22610163/30512919-72a57046-9b02-11e7-8ca8-c3e4bd993497.gif">
+</center>
 # Vehicle Tracking in Challenging Scenarios using YOLOv8
 
 This is a semester-long coursework for the third year of the Bachelor of Software Engineering program at Yoobee Colleges in Auckland, focusing on advanced topics in software development and project management.
