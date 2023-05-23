@@ -19,7 +19,7 @@ This repository contains code for a vehicle tracking system based on the YOLOv8 
 
 4) submit a paper
 
-## Things to do as on may,19
+## Things to do as on May,19
 
 1)Improve the confidence score (Calculate average confidence ?)
 
