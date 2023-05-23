@@ -32,3 +32,7 @@ This repository contains code for a vehicle tracking system based on the YOLOv8 
 5)Retest models again and evaluate metrics to see whether performances are consistant
 
 6)List challenges for example, add very bright sun, small sizes of detected vehicles
+
+## Questions for Scrum metting 24/05
+
+<!-- 1) Is Literature Review required for R&D report?
