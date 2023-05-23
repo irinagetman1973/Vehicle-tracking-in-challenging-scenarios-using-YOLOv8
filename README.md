@@ -35,4 +35,4 @@ This repository contains code for a vehicle tracking system based on the YOLOv8 
 
 ## Questions for Scrum metting 24/05
 
-<!-- 1) Is Literature Review required for R&D report?
+1) Is Literature Review required for R&D report?
