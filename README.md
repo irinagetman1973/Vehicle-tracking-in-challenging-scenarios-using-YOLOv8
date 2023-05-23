@@ -18,3 +18,17 @@ This repository contains code for a vehicle tracking system based on the YOLOv8 
 3) design the UI using Flask
 
 4) submit a paper
+
+## Things to do as on may,19
+
+1)Improve the confidence score (Calculate average confidence ?)
+
+2)Train a custom YOLOv8 model on one bright video &#x2705;
+
+3)Test a new model on the second bright video &#x2705;
+
+4)Do Cross Validation
+
+5)Retest models again and evaluate metrics to see whether performances are consistant
+
+6)List challenges for example, add very bright sun, small sizes of detected vehicles
