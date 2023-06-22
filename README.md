@@ -46,7 +46,7 @@ myvenv\Sripts\activate
 ### Clone repository
 ```commandline
 git clone https://github.com/irinagetman1973/Vehicle-tracking-in-challenging-scenarios-using-YOLOv8.git
-cd YOLOv8-Streamlit
+cd Vehicle-tracking-in-challenging-scenarios-using-YOLOv8
 ```
 
 ### Install packages
