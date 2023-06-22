@@ -79,7 +79,7 @@ Then will start the Streamlit server and open your web browser to the default St
 
 
 ## Results
-![Alt Text](path/to/screenshot.png)
+![Alt Text](images/streamlit_screen.png)
 
 
 
