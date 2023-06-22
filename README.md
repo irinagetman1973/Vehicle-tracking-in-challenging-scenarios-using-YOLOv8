@@ -76,7 +76,7 @@ Create a directory named `weights` and create a subdirectory named `detection` a
 streamlit run app.py
 ```
 Then will start the Streamlit server and open your web browser to the default Streamlit page automatically.
-For Object Counting, you can choose "Video" from "Select Source" combo box and use "test3.mp4" inside videos folder as an example.
+
 
 
 
