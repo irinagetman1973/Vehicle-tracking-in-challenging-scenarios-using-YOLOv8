@@ -1,5 +1,6 @@
 # Ultralytics requirements
 # Usage: pip install -r requirements.txt
+ultralytics>=1.0.0
 
 # Base ----------------------------------------
 matplotlib>=3.2.2
