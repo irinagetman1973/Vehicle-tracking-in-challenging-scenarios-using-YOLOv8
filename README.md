@@ -23,12 +23,11 @@
 </div>
 
 ## Introduction
-This repository supply a user-friendly interactive interface for [YOLOv8](https://github.com/ultralytics/ultralytics) with Object Tracking and Counting capability. The interface is powered by [Streamlit](https://github.com/streamlit/streamlit).
-
 
 This is a semester-long coursework for the third year of the Bachelor of Software Engineering program at Yoobee Colleges in Auckland, focusing on advanced topics in software development and project management.
 
-This repository contains code for a vehicle tracking system based on the YOLOv8 object detection algorithm. The system is designed to work in challenging scenarios, such as low light conditions, occlusions, and fast motion.
+This repository contains code for a vehicle tracking system based on the [YOLOv8](https://github.com/ultralytics/ultralytics) object detection algorithm.The interface is powered by [Streamlit](https://github.com/streamlit/streamlit). The system is designed to work in challenging scenarios, such as low light conditions, occlusions, and fast motion.
+
 ## Features
 - Feature1: Object detection task.
 - Feature2: Multiple detection models. `yolov8n`, `yolov8s`, `yolov8m`, `yolov8l`, `yolov8x`
@@ -42,16 +41,16 @@ You can use [This](https://monemati-yolov8-deepsort-streamlit-app-et5bli.streaml
 ### Create a virtual environment
 ```commandline
 # create
-python -m venv yolov8-mot-streamlit
+python -m venv myvenv
 
 # activate
-source yolov8-mot-streamlit/bin/activate
+myvenv\Sripts\activate
 ```
 
 ### Clone repository
 ```commandline
-git clone https://github.com/monemati/YOLOv8-DeepSORT-Streamlit.git
-cd YOLOv8-DeepSORT-Streamlit
+git clone 
+cd YOLOv8-Streamlit
 ```
 
 ### Install packages
@@ -88,9 +87,9 @@ For Object Counting, you can choose "Video" from "Select Source" combo box and u
 ## Acknowledgement
 - https://github.com/ultralytics/ultralytics
 - https://github.com/streamlit/streamlit
-- https://github.com/ZQPei/deep_sort_pytorch
+
 - https://github.com/JackDance/YOLOv8-streamlit-app
-- https://github.com/MuhammadMoinFaisal/YOLOv8-DeepSORT-Object-Tracking
+
 
 
  <center>
