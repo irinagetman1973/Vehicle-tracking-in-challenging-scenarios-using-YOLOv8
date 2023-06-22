@@ -29,9 +29,11 @@ This repository contains code for a vehicle tracking system based on the [YOLOv8
 - Feature2: Multiple detection models. `yolov8n`, `yolov8s`, `yolov8m`, `yolov8l`, `yolov8x`
 - Feature3: Multiple input formats. `Image`, `Video`, `Webcam`
 - Feature4: Multiple Object Tracking and Counting.
+  
+---------
 
 ## Run online
-You can use [This](https://monemati-yolov8-deepsort-streamlit-app-et5bli.streamlit.app/) link to try an online version on Streamlit.   
+You can use [This](https://vehicle-tracking-2023.streamlit.app/) link to try an online version on Streamlit.   
 
 ## Installation
 ### Create a virtual environment
@@ -76,8 +78,7 @@ streamlit run app.py
 Then will start the Streamlit server and open your web browser to the default Streamlit page automatically.
 For Object Counting, you can choose "Video" from "Select Source" combo box and use "test3.mp4" inside videos folder as an example.
 
-## Try 
-You can run the app [here](https://vehicle-tracking-2023.streamlit.app/)
+
 
 
   
