@@ -22,7 +22,7 @@ easydict
 #deployment
 streamlit
 tensorflow
-...
+
 
 # Plotting ------------------------------------
 pandas>=1.1.4
