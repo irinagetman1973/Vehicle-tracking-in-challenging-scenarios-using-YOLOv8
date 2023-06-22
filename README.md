@@ -5,16 +5,14 @@
 
   <p>
     <a align="center" href="https://ultralytics.com/yolov8" target="_blank">
-      <img width="50%" src="images/banner-yolov8.png"></a>
+      <img width="50%" src="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png?1687402279656"></a>
   </p>
 
 <br>
 
 <div>
-    <a href="https://github.com/ultralytics/ultralytics/actions/workflows/ci.yaml"><img src="https://github.com/ultralytics/ultralytics/actions/workflows/ci.yaml/badge.svg" alt="Ultralytics CI"></a>
-    <a href="https://zenodo.org/badge/latestdoi/264818686"><img src="https://zenodo.org/badge/264818686.svg" alt="YOLOv8 Citation"></a>
-    <a href="https://hub.docker.com/r/ultralytics/ultralytics"><img src="https://img.shields.io/docker/pulls/ultralytics/ultralytics?logo=docker" alt="Docker Pulls"></a>
-    <br>
+ 
+
     <a href="https://console.paperspace.com/github/ultralytics/ultralytics"><img src="https://assets.paperspace.io/img/gradient-badge.svg" alt="Run on Gradient"/></a>
     <a href="https://colab.research.google.com/github/ultralytics/ultralytics/blob/main/examples/tutorial.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
     <a href="https://www.kaggle.com/ultralytics/yolov8"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open In Kaggle"></a>
@@ -87,18 +85,15 @@ For Object Counting, you can choose "Video" from "Select Source" combo box and u
 ## Acknowledgement
 - https://github.com/ultralytics/ultralytics
 - https://github.com/streamlit/streamlit
-
 - https://github.com/JackDance/YOLOv8-streamlit-app
 
 
 
- <center>
-  <img src="https://user-images.githubusercontent.com/22610163/30512919-72a57046-9b02-11e7-8ca8-c3e4bd993497.gif">
-</center>
 
 
 
-## Things to do as on 12, May
+
+## Things to do as of 12, May
 1) new data recording and re-testing pretrained YOLOv8 model '&#x2705;'  [update: done on 16/05. Notebook "Custom_video_track_count"] 
 
 
@@ -108,7 +103,7 @@ For Object Counting, you can choose "Video" from "Select Source" combo box and u
 
 4) submit a paper
 
-## Things to do as on May,19
+## Things to do as of May,19
 
 1) Improve the confidence score (Calculate average confidence ?)
 
@@ -122,8 +117,8 @@ For Object Counting, you can choose "Video" from "Select Source" combo box and u
 
 6) List challenges for example, add very bright sun, small sizes of detected vehicles
 
-## Questions for Scrum metting 24/05
+## Questions for Scrum meeting 24/05
 
-1) Is Literature Review required for R&D report?
+1) Is Literature Review required for an R&D report?
 
 2) Time management tools. Scrum meetings? Trello?
