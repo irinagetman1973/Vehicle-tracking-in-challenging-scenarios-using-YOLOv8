@@ -76,9 +76,10 @@ streamlit run app.py
 Then will start the Streamlit server and open your web browser to the default Streamlit page automatically.
 For Object Counting, you can choose "Video" from "Select Source" combo box and use "test3.mp4" inside videos folder as an example.
 
-## Result
+## Try 
+You can run the app [here](https://vehicle-tracking-2023.streamlit.app/)
 
-![alt text](images/YOLOv8-DeepSort-Streamlit-Counting.jpg "YOLOv8 DeepSort Streamlit Counting")
+
   
 ## Acknowledgement
 - https://github.com/ultralytics/ultralytics
