@@ -78,6 +78,8 @@ streamlit run app.py
 Then will start the Streamlit server and open your web browser to the default Streamlit page automatically.
 
 
+## Results
+![Alt Text](path/to/screenshot.png)
 
 
 
