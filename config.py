@@ -36,13 +36,15 @@ YOLOv8m = DETECTION_MODEL_DIR / "yolov8m.pt"
 YOLOv8n = DETECTION_MODEL_DIR / "yolov8n.pt"
 YOLOv8s = DETECTION_MODEL_DIR / "yolov8s.pt"
 YOLOv8x = DETECTION_MODEL_DIR / "yolov8x.pt"
+DriveWatch = DETECTION_MODEL_DIR / "DriveWatch.pt"
 
 DETECTION_MODEL_LIST = [
     "yolov8l.pt",
     "yolov8m.pt",
     "yolov8n.pt",
     "yolov8s.pt",
-    "yolov8x.pt"]
+    "yolov8x.pt",
+    "DriveWatch.pt"]
 
 
 OBJECT_COUNTER = None
