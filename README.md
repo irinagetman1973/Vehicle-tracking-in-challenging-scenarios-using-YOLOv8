@@ -25,10 +25,10 @@ This is a semester-long coursework for the third year of the Bachelor of Softwar
 This repository contains code for a vehicle tracking system based on the [YOLOv8](https://github.com/ultralytics/ultralytics) object detection algorithm.The interface is powered by [Streamlit](https://github.com/streamlit/streamlit). The system is designed to work in challenging scenarios, such as low light conditions, occlusions, and fast motion.
 
 ## Features
-- Feature1: Object detection task.
-- Feature2: Multiple detection models. `yolov8n`, `yolov8s`, `yolov8m`, `yolov8l`, `yolov8x`
-- Feature3: Multiple input formats. `Image`, `Video`, `Webcam`
-- Feature4: Multiple Object Tracking and Counting.
+- Feature 1: Object detection task.
+- Feature 2: Multiple detection models. `yolov8n`, `yolov8s`, `yolov8m`, `yolov8l`, `yolov8x`
+- Feature 3: Multiple input formats. `Image`, `Video`, `Webcam`
+- Feature 4: Multiple Object Tracking and Counting.
   
 ---------
 
@@ -57,7 +57,7 @@ cd Vehicle-tracking-in-challenging-scenarios-using-YOLOv8
 # Streamlit dependencies
 pip install streamlit
 
-# YOLOv8 dependecies
+# YOLOv8 dependencies
 pip install -e '.[dev]'
 ```
 ### Download Pre-trained YOLOv8 Detection Weights
