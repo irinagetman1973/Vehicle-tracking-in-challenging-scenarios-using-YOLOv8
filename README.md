@@ -38,7 +38,8 @@ You can use [This](https://vehicle-tracking-2023.streamlit.app/) link to try an 
 ## Installation
 ### Create a virtual environment
 ```commandline
-# create
+# for Windows
+# create 
 python -m venv myvenv
 
 # activate
