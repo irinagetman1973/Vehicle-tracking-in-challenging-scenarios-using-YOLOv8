@@ -80,7 +80,7 @@ Then will start the Streamlit server and open your web browser to the default St
 
 
 ## Results
-![Alt Text](images/streamlit_screen.png)
+![Alt Text](images/MicrosoftTeams-image(1).png)
 ![Alt Text](images/st.png)
 
 
