@@ -71,8 +71,8 @@ Create a directory named `weights` and create a subdirectory named `detection` a
 | [YOLOv8l](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8l.pt) | 640                   | 52.9                 | 375.2                          | 2.39                                | 43.7               | 165.2             |
 | [YOLOv8x](https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8x.pt) | 640                   | 53.9                 | 479.1                          | 3.53                                | 68.2               | 257.8             |
 
-## Custom-trained model
-My custom-trained YOLOv8 model that I named DriveWatch was built using the following approach:**model = YOLO('yolov8n.yaml').load('yolov8n.pt')**. The model was trained on a dataset specifically curated for bright lighting conditions. The resulting model is fast and lightweight. Notably, during visual evaluation within the Streamlit app, the model exhibited better performance compared to the largest model available in similar bright lighting scenarios. A dataset of bright lighting images for testing models can be found [here](https://app.roboflow.com/ds/7QANGsAiXO?key=wLzv7PA1cy) 
+### Custom-trained model
+My custom-trained YOLOv8 model that I named DriveWatch was built using the following approach: **model = YOLO('yolov8n.yaml').load('yolov8n.pt')** . The model was trained on a dataset specifically curated for bright lighting conditions. The resulting model is fast and lightweight. Notably, during visual evaluation within the Streamlit app, the model exhibited better performance compared to the largest model available in similar bright lighting scenarios. A dataset of bright lighting images for testing models can be downloaded [here](https://app.roboflow.com/ds/7QANGsAiXO?key=wLzv7PA1cy) 
 
 ## Run
 ```commandline
