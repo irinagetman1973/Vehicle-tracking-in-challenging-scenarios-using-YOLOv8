@@ -26,7 +26,7 @@ This repository contains code for a vehicle tracking system based on the [YOLOv8
 
 ## Features
 - Feature 1: Object detection task.
-- Feature 2: Multiple detection models. `yolov8n`, `yolov8s`, `yolov8m`, `yolov8l`, `yolov8x`
+- Feature 2: Multiple detection models. `yolov8n`, `yolov8s`, `yolov8m`, `yolov8l`, `yolov8x`,`DriveWatch`
 - Feature 3: Multiple input formats. `Image`, `Video`, `Webcam`
 - Feature 4: Multiple Object Tracking and Counting.
   
