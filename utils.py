@@ -334,35 +334,40 @@ def infer_uploaded_video(conf, model):
         label="Choose a video..."
     )
 
-    if source_video:
-        st.video(source_video)
+    col1, col2 = st.columns(2)
+    with col1:
+            st.video(source_video)
+     
+     
 
-    if source_video:
-        if st.button("Execution"):
-            with st.spinner("Running..."):
-                try:
-                    config.OBJECT_COUNTER1 = None
-                    config.OBJECT_COUNTER = None
-                    tfile = tempfile.NamedTemporaryFile()
-                    tfile.write(source_video.read())
-                    vid_cap = cv2.VideoCapture(
-                        tfile.name)
-                    st_count = st.empty()
-                    st_frame = st.empty()
-                    while (vid_cap.isOpened()):
-                        success, image = vid_cap.read()
-                        if success:
-                            _display_detected_frames(conf,
-                                                     model,
-                                                     st_count,
-                                                     st_frame,
-                                                     image
-                                                     )
-                        else:
-                            vid_cap.release()
-                            break
-                except Exception as e:
-                    st.error(f"Error loading video: {e}")
+    with col2:
+
+        if source_video:
+            if st.button("Execution"):
+                with st.spinner("Running..."):
+                    try:
+                        # config.OBJECT_COUNTER1 = None
+                        # config.OBJECT_COUNTER = None
+                        tfile = tempfile.NamedTemporaryFile()
+                        tfile.write(source_video.read())
+                        vid_cap = cv2.VideoCapture(
+                            tfile.name)
+                        st_count = st.empty()
+                        st_frame = st.empty()
+                        while (vid_cap.isOpened()):
+                            success, image = vid_cap.read()
+                            if success:
+                                _display_detected_frames(conf,
+                                                        model,
+                                                        st_count,
+                                                        st_frame,
+                                                        image
+                                                        )
+                            else:
+                                vid_cap.release()
+                                break
+                    except Exception as e:
+                        st.error(f"Error loading video: {e}")
 
 
 
